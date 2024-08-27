@@ -1,17 +1,13 @@
-- name: Dr. Richard Feynman
+- name: Nicholas Wolczynski
   photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+  info: PhD Candidate, Computational Data Science, University of Texas @ Austin
+  email: nicholas@mccombs.utexas.edu
+  github: https://github.com/ridicholas
+  scholar: https://scholar.google.com/citations?user=3R1AJNMAAAAJ&hl=en
   cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(2018) M.S. Statistics, University of North Carolina @ Chapel Hill",
+      "(2015) B.S. Statistics & Information Systems, New York University, Stern School of Business",
     ]
-
-  educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]

@@ -30,7 +30,7 @@ nav_pages:
   - name: about
   - name: research
   - name: talks
-  - name: cv/resume
+  - name: cv/Resume
 
 include:
   - .htaccess
