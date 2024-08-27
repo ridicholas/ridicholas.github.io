@@ -19,19 +19,23 @@ end
 
 desc "Generate and publish blog to gh-pages"
 task :publish => [:generate] do
-  Dir.mktmpdir do |tmp|
-    cp_r "_site/.", tmp
+  # Ensure we're operating within the `_site` directory
+  Dir.chdir "_site" do
+    # Check if the .git directory exists; if not, initialize it
+    unless File.exist?(".git")
+      system "git init"
+      system "git checkout -b source"
+      system "git remote add origin https://github.com/ridicholas/ridicholas.github.io.git"
+    end
 
-    pwd = Dir.pwd
-    Dir.chdir tmp
-
+    # Configure Git to handle large files if necessary
     system "git config http.postBuffer 524288000"
+
+    # Add, commit, and push changes
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
-    system "git remote add origin https://github.com/ridicholas/ridicholas.github.io"
     system "git push origin source --force"
-
-    Dir.chdir pwd
   end
 end
+
