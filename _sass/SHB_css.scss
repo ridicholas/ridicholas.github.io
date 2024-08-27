@@ -40,10 +40,10 @@ img {
   min-height:     1px;
   margin-top:    15px;
   color: black;
-  background-color: var(--white);
-  border: 2px solid var(--teal);
+  background-color: var(--gray);
+  border: 2px solid var(--gray-dark);
   blockquote {
-    border-color: var(--teal);
+    border-color: var(--gray-dark);
     border-color: rgba(0,0,0,.15);
   }
 }
