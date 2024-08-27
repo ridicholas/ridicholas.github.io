@@ -25,8 +25,7 @@ task :publish => [:generate] do
     pwd = Dir.pwd
     Dir.chdir tmp
 
-    system "git init"
-    system "git checkout -b source" # Explicitly create the source branch
+    system "git config http.postBuffer 524288000"
     system "git add ."
     message = "Site updated at #{Time.now.utc}"
     system "git commit -m #{message.inspect}"
