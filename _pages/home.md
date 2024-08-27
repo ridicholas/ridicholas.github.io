@@ -7,7 +7,7 @@ permalink: /
 
 ### About Me
 
-I am a PhD candidate in Information Systems - Computational Data Science at the [McCombs School of Business, UT Austin](https://www.mccombs.utexas.edu/), advised by Professor [Maytal Saar-Tsechansky](https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/maytal-saar-tsechansky/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/), worked as a Business Intelligence analyst at [Myriad360](https://myriad360.com/), and received a B.S. in Statistics and Information Systems from the [Stern School of Business, NYU](https://www.stern.nyu.edu/). 
+I am a PhD candidate in Computational Data Science at the [McCombs School of Business, UT Austin](https://www.mccombs.utexas.edu/), advised by Professor [Maytal Saar-Tsechansky](https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/maytal-saar-tsechansky/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/), worked as a Business Intelligence analyst at [Myriad360](https://myriad360.com/), and received a B.S. in Statistics and Information Systems from the [Stern School of Business, NYU](https://www.stern.nyu.edu/). 
 
 ### Research
 
