@@ -5,28 +5,21 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+### About Me
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
-It also helps us to understand the fundamental principles that govern the behavior of matter and energy, and to explore the limits of our current knowledge.
-Theoretical physics helps us to make progress in a wide range of fields, including cosmology, particle physics, and quantum mechanics, and it has led to many important discoveries and technological innovations.
+I am a PhD candidate in Information Systems - Computational Data Science at the [McCombs School of Business, UT Austin](https://www.mccombs.utexas.edu/), advised by Professor [Maytal Saar-Tsechansky](https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/maytal-saar-tsechansky/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/), worked as a Business Intelligence analyst at [Myriad360](https://myriad360.com/), and received a B.S. in Statistics and Information Systems from the [Stern School of Business, NYU](https://www.stern.nyu.edu/). 
 
-<div class="container">
-<div class="row">
-<center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
-</center>
-</div>
-</div>
-<br/>
+### Research
 
-### About me
+My research focuses on developing artificial intelligence (AI) systems for human-AI and AI-AI collaborative decision-making settings. I am interested in both designing AI methods and studying how humans interact with and benefit from AI. My ongoing research explores several key questions:
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+* How to develop personalized AI decision advisors that reliably improve expert decisions across different contexts and expert behaviors?
+* How can AI systems be designed to enhance human decision-making processes, even in the absence of AI assistance on future decisions?
+* How can we integrate large language models (LLMs) with traditional machine learning (ML) methods to achieve superior classification performance compared to either approach alone?
+
+I am also interested in reducing the spread of misinformation online. My work in this area includes studying the impact of labels on user engagement with and propagation of AI advice. Additionally, I designed and implemented TACIT, a simulation of user-to-user information and misinformation propagation on networks, which serves as a useful test bed for AI-driven algorithmic misinformation detection.
+
+
+
+
+
