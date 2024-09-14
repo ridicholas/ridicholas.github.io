@@ -141,16 +141,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <em>In Proceedings @ FAccT (2023)</em>
           </div>
 
-        <!-- Add Code Button If URL Exists -->
-        
-          <div class="pub-buttons" style="margin-top: 10px;">
-            <a href="https://github.com/ridicholas/TACIT" class="btn btn-outline-dark btn-sm" target="_blank">Code</a>
-          </div>
-        
+        <!-- Add Code and BibTeX Buttons If Available -->
+        <div class="pub-buttons" style="margin-top: 10px;">
+          
+            <a href="https://github.com/ridicholas/TACIT" class="btn btn-outline-dark btn-sm" target="_blank" style="margin-right: 5px;">Code</a>
+          
+          
+            <a href="#" class="btn btn-outline-dark btn-sm bibtex-button" data-bibtex="@inproceedings{tacit_2023,
+  author = {Neumann, Terrence and Wolczynski, Nicholas},
+  title = {Does AI-Assisted Fact-Checking Disproportionately Benefit Majority Groups Online?},
+  year = {2023},
+  isbn = {9798400701924},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3593013.3594013},
+  doi = {10.1145/3593013.3594013},
+  abstract = {In recent years, algorithms have been incorporated into fact-checking pipelines. They are used not only to flag previously fact-checked misinformation, but also to provide suggestions about which trending claims should be prioritized for fact-checking - a paradigm called ‘check-worthiness.’ While several studies have examined the accuracy of these algorithms, none have investigated how the benefits from these algorithms (via reduction in exposure to misinformation) are distributed amongst various online communities. In this paper, we investigate how diverse representation across multiple stages of the AI development pipeline affects the distribution of benefits from AI-assisted fact-checking for different online communities. We simulate information propagation through the network using our novel Topic-Aware, Community-Impacted Twitter (TACIT) simulator on a large Twitter followers network, tuned to produce realistic cascades of true and false information across multiple topics. Finally, using simulated data as a test bed, we implement numerous algorithmic fact-checking interventions that explicitly account for notions of diversity. We find that both representative and egalitarian methods for sampling and labeling check-worthiness model training data can lead to network-wide benefit concentrated in majority communities, while incorporating diversity into how fact-checkers use algorithmic recommendations can actively reduce inequalities in benefits between majority and minority communities. These findings contribute to an important conversation around the responsible implementation of AI-assisted fact-checking by social media platforms and fact-checking organizations.},
+  booktitle = {Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency},
+  pages = {480–490},
+  numpages = {11},
+  keywords = {agent-based modeling, algorithmic fairness, machine learning, misinformation detection, network science, socio-technical systems},
+  location = {Chicago, IL, USA},
+  series = {FAccT &apos;23}
+  }
+" onclick="copyBibtex(event)">BibTeX</a>
+          
 
         </div>
       </div>
-    </li>
+    &lt;/li&gt;
     <br />
   
     <li>
@@ -174,12 +193,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <em>Information Systems Research (2023)</em>
           </div>
 
-        <!-- Add Code Button If URL Exists -->
-        
+        <!-- Add Code and BibTeX Buttons If Available -->
+        <div class="pub-buttons" style="margin-top: 10px;">
+          
+          
+            <a href="#" class="btn btn-outline-dark btn-sm bibtex-button" data-bibtex="@article{countering_2023,
+  author = {Moravec, Patricia L. and Collis, Avinash and Wolczynski, Nicholas},
+  title = {Countering State-Controlled Media Propaganda Through Labeling: Evidence from Facebook},
+  journal = {Information Systems Research},
+  volume = {0},
+  number = {0},
+  pages = {null},
+  year = {0},
+  doi = {10.1287/isre.2022.0305},
+  URL = { 
+      
+          https://doi.org/10.1287/isre.2022.0305},
+  eprint = { https://doi.org/10.1287/isre.2022.0305}
+  }
+" onclick="copyBibtex(event)">BibTeX</a>
+          
 
         </div>
       </div>
-    </li>
+    &lt;/li&gt;
     <br />
   
     <li>
@@ -203,20 +240,77 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <em>Alcohol (2021)</em>
           </div>
 
-        <!-- Add Code Button If URL Exists -->
-        
+        <!-- Add Code and BibTeX Buttons If Available -->
+        <div class="pub-buttons" style="margin-top: 10px;">
+          
+          
+            <a href="#" class="btn btn-outline-dark btn-sm bibtex-button" data-bibtex="@article{VANNIER202137,
+  title = {Serum HMGB1 associates with liver disease and predicts readmission and mortality in patients with alcohol use disorder},
+  journal = {Alcohol},
+  volume = {95},
+  pages = {37-43},
+  year = {2021},
+  issn = {0741-8329},
+  doi = {https://doi.org/10.1016/j.alcohol.2021.05.003},
+  url = {https://www.sciencedirect.com/science/article/pii/S0741832921000616},
+  author = {Augustin G.L. Vannier and Ben Wardwell and Vladislav Fomin and Amanda PeBenito and Nicholas Wolczynski and Samuel Piaker and Dmitriy Kedrin and Raymond T. Chung and Esperance Schaefer and Russell Goodman and Suraj J. Patel and Jay Luther},
+  keywords = {alcohol-associated liver disease, alcohol use disorder, biomarkers, HMGB1, steatohepatitis},
+  }" onclick="copyBibtex(event)">BibTeX</a>
+          
 
         </div>
       </div>
-    </li>
+    &lt;/li&gt;
     <br />
   
 
-  </ul>
+  &lt;/ul&gt;
 </div>
 
-<p>* denotes first and joint-first author publications</p>
+\* denotes first and joint-first author publications
 
+
+<script>
+function copyBibtex(event) {
+  event.preventDefault(); // Prevent the default link behavior
+
+  // Get the BibTeX text from the data attribute
+  var bibtex = event.currentTarget.getAttribute('data-bibtex');
+
+  // Use the Clipboard API to copy text
+  if (navigator.clipboard && window.isSecureContext) {
+    // Navigator clipboard api method'
+    navigator.clipboard.writeText(bibtex).then(function() {
+      alert('BibTeX entry copied to clipboard!');
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  } else {
+    // Textarea method for older browsers
+    var textarea = document.createElement('textarea');
+    textarea.value = bibtex;
+    // Move textarea out of viewport so it's not visible
+    textarea.style.position = 'fixed';
+    textarea.style.left = '-999999px';
+    textarea.style.top = '-999999px';
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    try {
+      document.execCommand('copy');
+      alert('BibTeX entry copied to clipboard!');
+    } catch (err) {
+      console.error('Could not copy text: ', err);
+    }
+    document.body.removeChild(textarea);
+  }
+}
+</script>
+
+
+
+</li></div></li></div></li></ul>
+</div>
 
 </div>
 
