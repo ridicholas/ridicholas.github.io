@@ -114,395 +114,224 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container-fluid">
       <div class="row">
         <div id="gridid" class="col-sm-12 col-xs-12">
-  <style>
-.talk-title {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-.talk-venue {
-    font-size: 0.9em;
-    color: #555;
-}
+  <!-- Include Styles -->
+<style>
+  .btn {
+    margin-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 20px;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .bibtex-entry, .abstract-entry {
+    display: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 </style>
+
+<!-- Include Scripts -->
+<script>
+  function toggleBibtex(key) {
+    var x = document.getElementById('a' + key);
+    x.style.display = (x.style.display === 'none') ? 'block' : 'none';
+  }
+
+  function toggleAbstract(key) {
+    var x = document.getElementById('b' + key);
+    x.style.display = (x.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
 
 <div class="jumbotron">
   <h3 id="talks">Talks</h3>
-  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ol class="bibliography" reversed="reversed"&gt;&lt;li&gt;&lt;style&gt; .btn{
-margin-bottom:5px;
-padding-top:0px;
-padding-bottom:0px;
-padding-left:15px;
-padding-right:15px;
-height:20px }
-</code></pre></div>  </div>
+  <ol class="bibliography" reversed="reversed"><li><li>
+  <div class="text-justify"><span id="iromSymposium24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>McCombs School of Business, IROM Research Symposium</i>.</span></div>
 
-  <p>pre{
-    white-space: pre-wrap;<br />
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-&lt;/style&gt;</p>
+  
+  
 
-  <div class="text-justify">
-    <p><span id="iromSymposium24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>McCombs School of Business, IROM Research Symposium</i>.</span>&lt;/div&gt;</p>
+  
 
-    <!-- You can use the below to make your name bold -->
-    <!-- <span id="iromSymposium24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>McCombs School of Business, IROM Research Symposium</i>.</span></div> -->
+  
 
-    <div id="airomSymposium24" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-      <pre>@incollection{iromSymposium24,
+  
+
+  
+
+  <div id="airomSymposium24" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{iromSymposium24,
   author = {Wolczynski, Nicholas},
   title = {Learning to Advise Humans In High-Stakes Settings},
   booktitle = {McCombs School of Business, IROM Research Symposium},
   year = {2024}
 }
 </pre>
-    </div>
+  </div>
 
-    <div id="biromSymposium24" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-      <pre></pre>
-    </div>
+  <div id="biromSymposium24" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li>
+<li><li>
+  <div class="text-justify"><span id="scecr24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>SCECR</i>.</span></div>
 
-    <script>
-function toggleBibtexiromSymposium24(parameter) {
-    var x= document.getElementById('airomSymposium24');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractiromSymposium24(parameter) {
-    var x= document.getElementById('biromSymposium24');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
+  
+  
 
-    <p>&lt;/li&gt;</p>
-    <li>
-      <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
+  
 
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
+  
 
-      <div class="text-justify">
-        <p><span id="scecr24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>SCECR</i>.</span>&lt;/div&gt;</p>
+  
 
-        <!-- You can use the below to make your name bold -->
-        <!-- <span id="scecr24">Wolczynski, N. (2024). Learning to Advise Humans In High-Stakes Settings. In <i>SCECR</i>.</span></div> -->
+  
 
-        <div id="ascecr24" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-          <pre>@incollection{scecr24,
+  <div id="ascecr24" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{scecr24,
   author = {Wolczynski, Nicholas},
   title = {Learning to Advise Humans In High-Stakes Settings},
   booktitle = {SCECR},
   year = {2024}
 }
 </pre>
-        </div>
+  </div>
 
-        <div id="bscecr24" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-          <pre></pre>
-        </div>
+  <div id="bscecr24" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li>
+<li><li>
+  <div class="text-justify"><span id="datasciwork22">Wolczynski, N. (2022). Leveraging Algorithm Discretion in AI-Advised Teams. In <i>INFORMS Data Science Workshop</i>.</span></div>
 
-        <script>
-function toggleBibtexscecr24(parameter) {
-    var x= document.getElementById('ascecr24');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractscecr24(parameter) {
-    var x= document.getElementById('bscecr24');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
+  
+  
 
-        <p>&lt;/li&gt;</p>
-        <li>
-          <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
+  
 
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
+  
 
-          <div class="text-justify">
-            <p><span id="datasciwork22">Wolczynski, N. (2022). Leveraging Algorithm Discretion in AI-Advised Teams. In <i>INFORMS Data Science Workshop</i>.</span>&lt;/div&gt;</p>
+  
 
-            <!-- You can use the below to make your name bold -->
-            <!-- <span id="datasciwork22">Wolczynski, N. (2022). Leveraging Algorithm Discretion in AI-Advised Teams. In <i>INFORMS Data Science Workshop</i>.</span></div> -->
+  
 
-            <div id="adatasciwork22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-              <pre>@incollection{datasciwork22,
+  <div id="adatasciwork22" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{datasciwork22,
   author = {Wolczynski, Nicholas},
   title = {Leveraging Algorithm Discretion in AI-Advised Teams},
   booktitle = {INFORMS Data Science Workshop},
   year = {2022}
 }
 </pre>
-            </div>
+  </div>
 
-            <div id="bdatasciwork22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-              <pre></pre>
-            </div>
+  <div id="bdatasciwork22" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li>
+<li><li>
+  <div class="text-justify"><span id="informs22">Wolczynski, N. (2022). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>INFORMS Annual Meeting</i>.</span></div>
 
-            <script>
-function toggleBibtexdatasciwork22(parameter) {
-    var x= document.getElementById('adatasciwork22');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractdatasciwork22(parameter) {
-    var x= document.getElementById('bdatasciwork22');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
+  
+  
 
-            <p>&lt;/li&gt;</p>
-            <li>
-              <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
+  
 
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
+  
 
-              <div class="text-justify">
-                <p><span id="informs22">Wolczynski, N. (2022). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>INFORMS Annual Meeting</i>.</span>&lt;/div&gt;</p>
+  
 
-                <!-- You can use the below to make your name bold -->
-                <!-- <span id="informs22">Wolczynski, N. (2022). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>INFORMS Annual Meeting</i>.</span></div> -->
+  
 
-                <div id="ainforms22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                  <pre>@incollection{informs22,
+  <div id="ainforms22" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{informs22,
   author = {Wolczynski, Nicholas},
   title = {Countering state-sponsored media propaganda through labeling: Evidence from Facebook},
   booktitle = {INFORMS Annual Meeting},
   year = {2022}
 }
 </pre>
-                </div>
+  </div>
 
-                <div id="binforms22" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                  <pre></pre>
-                </div>
+  <div id="binforms22" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li>
+<li><li>
+  <div class="text-justify"><span id="scecr21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>Proceedings of the SCECR</i>.</span></div>
 
-                <script>
-function toggleBibtexinforms22(parameter) {
-    var x= document.getElementById('ainforms22');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractinforms22(parameter) {
-    var x= document.getElementById('binforms22');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
+  
+  
 
-                <p>&lt;/li&gt;</p>
-                <li>
-                  <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
+  
 
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
+  
 
-                  <div class="text-justify">
-                    <p><span id="scecr21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>Proceedings of the SCECR</i>.</span>&lt;/div&gt;</p>
+  
 
-                    <!-- You can use the below to make your name bold -->
-                    <!-- <span id="scecr21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>Proceedings of the SCECR</i>.</span></div> -->
+  
 
-                    <div id="ascecr21" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                      <pre>@incollection{scecr21,
+  <div id="ascecr21" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{scecr21,
   author = {Wolczynski, Nicholas},
   title = {Countering state-sponsored media propaganda through labeling: Evidence from Facebook},
   booktitle = {Proceedings of the SCECR},
   year = {2021}
 }
 </pre>
-                    </div>
+  </div>
 
-                    <div id="bscecr21" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                      <pre></pre>
-                    </div>
+  <div id="bscecr21" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li>
+<li><li>
+  <div class="text-justify"><span id="code21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>CODE at MIT</i>.</span></div>
 
-                    <script>
-function toggleBibtexscecr21(parameter) {
-    var x= document.getElementById('ascecr21');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractscecr21(parameter) {
-    var x= document.getElementById('bscecr21');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
+  
+  
 
-                    <p>&lt;/li&gt;</p>
-                    <li>
-                      <style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
+  
 
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
+  
 
-                      <div class="text-justify">
-                        <p><span id="code21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>CODE at MIT</i>.</span>&lt;/div&gt;</p>
+  
 
-                        <!-- You can use the below to make your name bold -->
-                        <!-- <span id="code21">Wolczynski, N. (2021). Countering state-sponsored media propaganda through labeling: Evidence from Facebook. In <i>CODE at MIT</i>.</span></div> -->
+  
 
-                        <div id="acode21" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                          <pre>@incollection{code21,
+  <div id="acode21" class="bibtex-entry" style="display: none;">
+    <pre>@incollection{code21,
   author = {Wolczynski, Nicholas},
   title = {Countering state-sponsored media propaganda through labeling: Evidence from Facebook},
   booktitle = {CODE at MIT},
   year = {2021}
 }
 </pre>
-                        </div>
-
-                        <div id="bcode21" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-                          <pre></pre>
-                        </div>
-
-                        <script>
-function toggleBibtexcode21(parameter) {
-    var x= document.getElementById('acode21');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractcode21(parameter) {
-    var x= document.getElementById('bcode21');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-
-                        <p>&lt;/li&gt;&lt;/ol&gt;</p>
-                      </div>
-                    </li>
-                  </div>
-                </li>
-              </div>
-            </li>
-          </div>
-        </li>
-      </div>
-    </li>
   </div>
+
+  <div id="bcode21" class="abstract-entry" style="display: none;">
+    <pre></pre>
+  </div>
+</li>
+</li></ol>
 </div>
+
 
 </div>
 
