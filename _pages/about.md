@@ -5,74 +5,21 @@ sitemap: false
 permalink: /about/
 ---
 
-## About
+### About Me
 
-{% for member in site.data.pi %}
+I am a PhD candidate in Computational Data Science at the [McCombs School of Business @ UT Austin](https://www.mccombs.utexas.edu/), advised by Professor [Maytal Saar-Tsechansky](https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/maytal-saar-tsechansky/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/) and a B.S. in Statistics and Information Systems from the [Stern School of Business @ NYU](https://www.stern.nyu.edu/). 
 
-<div class="jumbotron">
-<div class="row">
-<div class="col-sm-4">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
-</div>
-<div class="col-sm-8 col-xs-12">
-  <h3>{{ member.name }}</h3>
-  <h4><i>{{ member.info }}</i></h4>
-  {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
-  {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
+### Research
 
-  <ul style="overflow: hidden">
-    {% for education in member.education %}
-      <li>{{ education | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
+My research focuses on developing artificial intelligence (AI) systems for human-AI collaborative decision-making settings. I am interested in both designing AI methods and studying how humans interact with and benefit from AI. My ongoing research explores several key questions:
 
-</div>
-</div>
-</div>
-{% endfor %}
+* How to develop personalized AI decision advisors that reliably improve expert decisions across different contexts and expert behaviors?
+* How can AI systems be designed to enhance human decision-making processes, even in the absence of AI assistance on future decisions?
+* How can we integrate large language models (LLMs) with traditional machine learning (ML) methods to achieve superior classification performance compared to either approach alone?
 
-{% if site.data.grants %}
-
-<div class="jumbotron">
-  <h3>Grants</h3>
-  <ul>
-    {% for grant in site.data.grants %}
-      <li>{{ grant.name }}</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
-{% if site.data.awards %}
-
-<div class="jumbotron">
-  <h3>Awards</h3>
-  <ul>
-    {% for award in site.data.awards %}
-      <li>{{ award.name | replace: "-","&#8211;" }}</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
-{% if site.data.people %}
-
-<div class="jumbotron">
-  <h3>Students and Mentoring</h3>
-  <ul>
-    {% for student in site.data.people %}
-      <li>{{ student.name }}, {{ student.location }} ({{ student.degree }}, {{ student.year }})</li>
-    {% endfor %}
-  </ul>
-</div>
-{% endif %}
-
-<div class="jumbotron">
-  <h4>Sponsors</h4>
-  <div style='display:block; text-align:center; margin-left:auto; margin-right:auto;'>
-  {% for funder in site.data.funders %}<a href="{{ funder.url }}" target="_blank"><img src='{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}' style='max-height: 80px; max-width: 200px; margin: 1%'/></a>{% endfor %}
-  </div>
-</div>
+Topics of Interest: 
+* **Human-AI Collaborative Decision-Making**
+* **Explainable AI (XAI)**
+* **Information Propagation on Networks** 
+* **Misinformation Mitigation**
+* **AI for Liver Transplantation Decision Assistance**

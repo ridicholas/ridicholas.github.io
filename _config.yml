@@ -3,7 +3,7 @@ title: Nicholas Wolczynski
 email: nicholas@mccombs.utexas.edu
 description: Academic webpage of Nicholas Wolczynski
 baseurl: ""
-url: ""
+url: "https://www.isnicholas.com"
 
 # Google analytics ID: Uncomment and your own, if you like
 # google_analytics: XX
@@ -27,10 +27,9 @@ contact: >
 
 # Pages shown in navbar
 nav_pages:
-  - name: about
-  - name: research
-  - name: talks
-  - name: cv/Resume
+  - name: Research
+  - name: Talks
+  - name: CV
 
 include:
   - .htaccess

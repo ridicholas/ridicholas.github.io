@@ -21,6 +21,7 @@ img {
 
 .container-fluid {
   max-width: 800px;
+  background-color: var(--white);
 }
 
 .container-footer {
@@ -86,5 +87,30 @@ img {
 }
 
 .MathJax_ref {
-  fill: #00bc8c!important;
+  fill: #20c997!important;
 }
+
+
+
+
+/* Global link styling */
+a {
+  color: #20c997 !important; /* Green links globally */
+}
+
+a:hover, a:focus {
+  color: #00bc8c !important; /* Darker green on hover globally */
+}
+
+/* Navbar-specific link styling */
+.nav-link,
+.navbar-brand {
+  color: white !important; /* Keep navbar and brand links white */
+}
+
+.nav-link:hover, .nav-link:focus,
+.navbar-brand:hover, .navbar-brand:focus {
+  color: gray !important; /* Keep hover state white or customize */
+  text-decoration: none; /* Optional: Remove underline */
+}
+

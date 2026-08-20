@@ -2,7 +2,7 @@
 title: "Talks"
 layout: gridlay
 sitemap: false
-permalink: /talks/
+permalink: /Talks
 ---
 
 <style>
@@ -22,12 +22,8 @@ permalink: /talks/
 }
 </style>
 
-<div class="jumbotron">
-### Invited talks
-{% bibliography --query @incollection[keywords ^= invited] %}
-</div>
 
 <div class="jumbotron">
-### Regular talks
+### Talks
 {% bibliography --query @incollection[keywords != invited] %}
 </div>
