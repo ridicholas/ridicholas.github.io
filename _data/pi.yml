@@ -1,13 +1,14 @@
 - name: Nicholas Wolczynski
   photo: https://www.isnicholas.com/images/headshot.jpg
-  info: PhD Candidate, Computational Data Science, University of Texas @ Austin
-  email: nicholas@mccombs.utexas.edu
+  info: Assistant Professor of AI in Business, Martin Tuchman School of Management, NJIT
+  email: nicholas.wolczynski@njit.edu
   github: https://github.com/ridicholas
   scholar: https://scholar.google.com/citations?user=3R1AJNMAAAAJ&hl=en
   cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
+      "(2026) Ph.D. Computational Data Science, University of Texas @ Austin",
       "(2018) M.S. Statistics, University of North Carolina @ Chapel Hill",
       "(2015) B.S. Statistics & Information Systems, New York University, Stern School of Business",
     ]

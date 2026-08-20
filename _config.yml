@@ -1,6 +1,6 @@
 # Site settings
 title: Nicholas Wolczynski
-email: nicholas@mccombs.utexas.edu
+email: nicholas.wolczynski@njit.edu
 description: Academic webpage of Nicholas Wolczynski
 baseurl: ""
 url: "https://www.isnicholas.com"
@@ -13,16 +13,16 @@ url: "https://www.isnicholas.com"
 # Footer info
 affiliation: >
   Nicholas Wolczynski<br/>
-  PhD Candidate - Data Science<br/>
-  University of Texas @ Austin
+  Assistant Professor of AI in Business<br/>
+  Martin Tuchman School of Management, NJIT
 
 location: >
-  University of Texas @ Austin<br/>
-  2110 Speedway<br/>
-  Austin, TX 78705
+  Martin Tuchman School of Management<br/>
+  New Jersey Institute of Technology<br/>
+  Newark, NJ 07102
 
 contact: >
-  <a href="mailto:nicholas@mccombs.utexas.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Nicholas via email</a> <br/>
+  <a href="mailto:nicholas.wolczynski@njit.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Nicholas via email</a> <br/>
   <a href="https://github.com/ridicholas"><i class="fa fa-github fa-1x"></i> Visit Github</a>
 
 # Pages shown in navbar
