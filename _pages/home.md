@@ -7,7 +7,7 @@ permalink: /
 
 ### About Me
 
-I am an Assistant Professor of AI in Business at the [Martin Tuchman School of Management @ NJIT](https://management.njit.edu/). I hold a PhD in Computational Data Science from the [McCombs School of Business @ UT Austin](https://www.mccombs.utexas.edu/), where I was advised by Professor [Maytal Saar-Tsechansky](https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/maytal-saar-tsechansky/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/) and a B.S. in Statistics and Information Systems from the [Stern School of Business @ NYU](https://www.stern.nyu.edu/). 
+I am an Assistant Professor of AI in Business at the [Martin Tuchman School of Management @ NJIT](https://management.njit.edu/). I hold a PhD in Computational Data Science from the [McCombs School of Business @ UT Austin](https://www.mccombs.utexas.edu/). Prior to joining UT, I received an M.S. in Statistics from the [University of North Carolina @ Chapel Hill](https://www.unc.edu/) and a B.S. in Statistics and Information Systems from the [Stern School of Business @ NYU](https://www.stern.nyu.edu/). 
 
 ### Research
 
